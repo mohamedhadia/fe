@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    @apply  bg-[#F3F5F8] text-[#5F6165]
+}
+.active svg {
+    @apply  text-gray-500
+}
+
+.CircularProgressbar-path {
+  @apply hover:!stroke-white group-hover:!stroke-white
+}
