@@ -225,7 +225,7 @@ export default function Layout({ children }) {
             <div className="flex flex-1 justify-between px-4 md:px-0">
               <div className=" flex flex-1">
                 <form
-                  className="flex h-12 w-[300px] md:ml-0 md:w-[358px]"
+                  className="flex h-12 w-[180px] md:ml-0 md:w-[358px]"
                   action="#"
                   method="GET"
                 >
@@ -245,7 +245,7 @@ export default function Layout({ children }) {
                         dispatch(setSearchVal(e.target.value))
                       }}
                       id="search-field"
-                      className="block h-12 w-full rounded-lg border-transparent bg-[#F5F4F6] py-2 pl-11 pr-3 font-medium text-gray-900 placeholder-gray-500 focus:border-transparent focus:placeholder-gray-400 focus:outline-none focus:ring-0 sm:text-sm md:text-base"
+                      className="block h-12 w-full rounded-lg border-transparent bg-[#F5F4F6] py-2 pl-11 pr-3 font-medium text-gray-900 placeholder-gray-500 placeholder:text-sm focus:border-transparent focus:placeholder-gray-400 focus:outline-none focus:ring-0 sm:text-sm md:text-base"
                       placeholder="Search or type"
                       type="search"
                       name="search"
